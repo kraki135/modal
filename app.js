@@ -5,5 +5,6 @@ var modal = document.querySelector('.modal');
 var backdrop = document.querySelector('.backdrop');
 
 btn_edit.addEventListener('click', function() {
-    
+   modal.style.display = 'block'; 
+   backdrop.style.display = 'block'; 
 });
